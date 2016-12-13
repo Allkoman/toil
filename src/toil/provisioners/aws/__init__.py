@@ -283,4 +283,7 @@ coreos:
             --name={role} \
             {image} \
             {args}
+
+ssh_authorized_keys:
+    - "ssh-rsa {sshKey}"
 """
